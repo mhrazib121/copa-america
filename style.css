@@ -1,0 +1,111 @@
+/*----------
+//Common styles //
+------------------- */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 70px;
+}
+
+/* header  */
+header{
+    background-color: #2D25A0;
+}
+.top-section{
+    display: flex;
+    /* margin: 40px; */
+}
+.top-tittle{
+    margin: 50px 50px 50px 75px;
+    padding: 50px 50px 50px 75px;
+}
+.top-tittle h1{
+    font-size: 64px;
+    padding: 20px 0;
+    color: #fff;
+}
+.btn{
+    background-color: #E02C6D;
+    padding: 10px 16px 10px;
+    color: #fff;
+    display: inline;
+    margin: 7px 0;
+}
+.btn a{
+    text-decoration: none;
+    color: #fff;
+}
+.top-banner img{
+    width: 556.01px;
+    height: 438px;
+}
+.top-banner:hover .photo{
+    transform: scale(1.15);
+    transition: transform 1s ease-in-out;
+}
+.top-banner{
+    margin:30px 50px 30px 0;
+    padding:25px 90px 25px 2px;
+}
+
+/* player section style  */
+section{
+
+    width: 70%;
+    background-color:#fff;
+    justify-content: center;
+}
+.players{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+.player{
+    padding: 15px;
+    box-shadow: 1px 1px 20px #6C6C6C;
+}
+.player-photo img{
+    width: 300px;
+    height: 256px;
+}
+.player-details h3{
+    font-size: 28px;
+}
+.player-details p{
+    font-size: 16px;
+}
+
+/* Footer section style  */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 63px;
+    margin-top: 95px;
+    gap: 20px;
+}
+.logo{
+    
+}
+footer img{
+    width: 483.87px;
+    height: 110px;
+}
+
+/* social media icon */
+.social-media i{
+    width: 17;
+}
+.fa-instagram, .fa-facebook, .fa-twitter, .fa-youtube{
+    color: #969BAB;
+}
+/* copyright */
+.copyright{
+    font-size: 18px;
+}
