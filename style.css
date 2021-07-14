@@ -87,7 +87,66 @@ header{
     font-size: 16px;
 }
 
+/* Latest News */
+
+.news-section{
+    width: 80%;
+    align-items: center;
+    margin: 70px 30px 0 30px;
+}
+.news-section h1{
+    text-align: center;
+    font-size: 35px;
+    color: #E02C6D;
+}
+.latest-news{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 25px;
+    margin:0 50px;
+}
+.news{
+    display: flex;
+    margin-top: 50px;
+    gap: 15px;
+}
+.news-photo img{
+    width: 250px;
+    height: 110px;
+}
+.news-headline h3{
+    font-size: 18px;
+}
+.news-headline p{
+    font-size: 12px;
+    color: red;
+}
+
+/* official partner  */
+
+.official-partner{
+    align-items: center;
+    margin-top: 80px;
+}
+.official-partner h1{
+    font-size: 35px;
+    text-align: center;
+    padding: 30px;
+    color: #E02C6D;
+}
+.partners{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:30px;
+}
+.partner-logo img{
+    width:250px;
+    height: 150px;
+}
+
 /* Footer section style  */
+
+/* Logo  */
 footer{
     display: flex;
     flex-direction: column;
@@ -96,9 +155,6 @@ footer{
     margin-top: 95px;
     gap: 20px;
 }
-/* .logo{
-    
-} */
 footer img{
     width: 483.87px;
     height: 110px;
