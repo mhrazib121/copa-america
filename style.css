@@ -65,6 +65,7 @@ header{
     width: 70%;
     background-color:#fff;
     justify-content: center;
+    margin-bottom: 165px;
 }
 .players{
     display: grid;
@@ -89,6 +90,31 @@ header{
     font-size: 16px;
 }
 
+/* ***
+All Highlights***
+  */
+
+  .highlights{
+      display: flex;
+  }
+  .highlight-details{
+    margin: 30px;
+    padding: 30px auto;
+    width: 50%;
+  }
+  .highlight-details h1{
+      font-size: 48px;
+  }
+  .highlight-details p{
+    font-size: 16px;
+}
+.highlight-photo{
+    width: 50%;
+}
+.highlight-photo img{
+    width: 567px;
+    height: 427;
+  }
 /* 
 ***Latest News***
  */
@@ -96,7 +122,7 @@ header{
 .news-section{
     width: 80%;
     align-items: center;
-    margin: 70px 30px 0 30px;
+    margin: 0px 30px;
 }
 .news-section h1{
     text-align: center;
@@ -211,6 +237,7 @@ footer img{
     }
     .container{
         width: 100%;
+        margin: 50px auto;
     }
     .players, .latest-news, .partners{
         grid-template-columns: repeat(1, 1fr);
@@ -221,13 +248,34 @@ footer img{
         align-items: center;
         margin: 15px;
     }
+    .highlights{
+        flex-direction: column;
+        
+    }
+    .highlight-details{
+        width: 90%;
+    }
+    .highlight-details h1{
+        font-size: 30px;
+    }
+    .highlight-photo{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .highlight-photo img{
+        width: 328px;
+        height: 248;
+    }
+    .latest-news{
+        margin: 0 25px;
+    }
     footer{
         margin-top: 25px;
         margin-bottom: 169px;
-        padding:18px 0 18px 18px;
+        padding:18px;
     }
     footer img{
-        width: 100%;
+        width: 80%;
     }
 }
 
@@ -255,6 +303,20 @@ footer img{
         flex-direction: column;
         align-items: center;
         margin: 20px;
+    }
+    .highlight-details{
+        width: 90%;
+    }
+    .highlight-details h1{
+        font-size: 30px;
+    }
+    .highlight-photo{
+        width: 90%;
+        margin-left: 10px;
+    }
+    .highlight-photo img{
+        width: 328px;
+        height: 248;
     }
     .latest-news{
         margin-left: 0;
