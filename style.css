@@ -19,7 +19,6 @@ header{
 }
 .top-section{
     display: flex;
-    /* margin: 40px; */
 }
 .top-tittle{
     width: 50%;
@@ -57,7 +56,10 @@ header{
 }
 
 
-/* player section style  */
+/* 
+***player section style***
+  */
+
 .container{
 
     width: 70%;
@@ -87,7 +89,9 @@ header{
     font-size: 16px;
 }
 
-/* Latest News */
+/* 
+***Latest News***
+ */
 
 .news-section{
     width: 80%;
@@ -122,7 +126,9 @@ header{
     color: red;
 }
 
-/* official partner  */
+/* 
+***official partner***
+  */
 
 .official-partner{
     align-items: center;
@@ -144,9 +150,11 @@ header{
     height: 150px;
 }
 
-/* Footer section style  */
+/* 
+***Footer section style***
+  */
 
-/* Logo  */
+
 footer{
     display: flex;
     flex-direction: column;
@@ -172,7 +180,7 @@ footer img{
     font-size: 18px;
 }
 
-/* ----- 
+/* ---- 
 ***Media Queries***
 ---------- */
 
@@ -183,7 +191,7 @@ footer img{
         flex-direction: column;
     }
     .top-tittle{
-        width: 100%;
+        width: 90%;
         margin: 50px 0 50px 16px;
         padding: 0;
     }
@@ -192,9 +200,10 @@ footer img{
         padding:30px 0;
     }
     .top-banner{
-        width: 100%;
+        width: 90%;
         margin:0px 16px 61.83px 15px;
         padding:0;
+        align-items: center;
     }
     .top-banner img{
         width: 329px;
@@ -203,14 +212,19 @@ footer img{
     .container{
         width: 100%;
     }
-    .players{
+    .players, .latest-news, .partners{
         grid-template-columns: repeat(1, 1fr);
     }
-    .player{
+    .player, .news, .partner-logo{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 15px;
+    }
+    footer{
+        margin-top: 25px;
+        margin-bottom: 169px;
+        padding:18px 0 18px 18px;
     }
     footer img{
         width: 100%;
@@ -233,14 +247,17 @@ footer img{
     .container{
         width: 100%;
     }
-    .players{
+    .players, .latest-news, .partners{
         grid-template-columns: repeat(2, 1fr);
     }
-    .player{
+    .player, .news{
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 20px;
+    }
+    .latest-news{
+        margin-left: 0;
     }
     footer img{
         width: 100%;
